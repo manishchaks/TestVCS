@@ -9,6 +9,7 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
          * $scope.Variables.loggedInUser.getData()
          */
     };
+
     /* perform any action on widgets within this block */
     $scope.onPageReady = function () {
         /*
@@ -19,3 +20,4 @@ Application.$controller("MainPageController", ["$scope", function ($scope) {
     };
 
 }]);
+
